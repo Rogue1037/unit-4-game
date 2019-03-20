@@ -37,30 +37,17 @@ $(document).ready(function(){
     };
     console.log(characters);
 
-    var characterOne = function(character, renderArea) {
-        var charDiv = $("<div class='character' data-name='" + character.name + "'>");
-        var charName = $("<div class='character-name'>").text(character.name);
-        var charImage = $("<img alt='image' class='character-image'>").attr("src", character.imageUrl);
-        var charHealth = $("div class='character-health'>").text(character.health);
-        charDiv.append(charName).append(charImage).append(charHealth);
-        $(renderArea).append(charDiv);
-        
+    
 
-    }
-    console.log(characterOne);
+   
 
-    var renderCharacters = function(charObj, areaRender) {
-        if (areaRender === ".characterSelection"){
-            $(areaRender).empty();
-            for (var key in charObj) {
-                if(charObj.hasOwnProperty(key)) {
-                    renderOne(charObj[key], areaRender);
-                }
+    $('<div/>', {
+        id: 'ackbar',
+        class: name,  
+        title: 'Ackbar'
+    }).appendTo('chars');
 
-            }
-        }
-    }
-renderCharacters(characters, ".characterSelection");
+    console.log($);
    
 });
 
