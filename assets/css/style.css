@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    
+
 }
 
 
@@ -9,11 +11,12 @@
     width: 100%;
     height: 100px;
     font-size: 69px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
     font-weight: bolder;
     padding: 5px;
     font-style: italic;
+    color: floralwhite;
 
 }
 
@@ -24,6 +27,8 @@
     border-color: floralwhite;
     float: left;
     box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+    color: floralwhite;
 
 
 }
@@ -34,7 +39,10 @@
     border: solid 2px;
     border-color: floralwhite;
     float: left;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+    color: floralwhite;
+
 
 }
 
@@ -45,14 +53,16 @@
     border-color: floralwhite;
     float: left;
     box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+    color: floralwhite;
 
 }
 
 .attackButton {
     float: left;
     background-color: darkslategray;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: 'Permanent Marker', cursive;
+    
 }
 
 .charChoice {
@@ -61,6 +71,7 @@
     padding: 10px;
     color: floralwhite;
     display: inline-flex;
+    color: floralwhite;
 
 
 }

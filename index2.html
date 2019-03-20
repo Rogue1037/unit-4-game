@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Roommate Rumble</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game2.js"></script>
+
+</head>
+<body>
+	<header>
+		<img src="assets/images/gglogo.png">
+	</header>
+	<section class="container character">
+		<h2>Roommate Rumble</h2>
+		<p>The ladies just discovered that there is only ONE slice of cheesecake left. Select your favorite Golden Girl and take the dessert skirmish out on the lanai!</p>
+		<div id="chars">
+			<div class="imgbox choice" id="bOne" data-gg-type="blanche">
+				<p>Blanche Devereaux</p>
+				<img src="assets/images/blanche.jpg" alt="Blanche">
+				<span id ="blanche">HP</span>
+			</div>
+			<div class="imgbox choice" id="sOne" data-gg-type="sophia">
+				<p>Sophia Petrillo</p>
+				<img src="assets/images/sophia.jpg" alt="Sophia">
+				<span id="sophia">HP</span>
+			</div>
+			<div class="imgbox choice" id="dOne" data-gg-type="dorothy">
+				<p>Dorothy Zbornak</p>
+				<img src="assets/images/dorothy.jpg" alt="Dorothy">
+				<span id="dorothy">HP</span>
+			</div>
+			<div class="imgbox choice" id="rOne" data-gg-type="rose">
+				<p>Rose Nylund</p>
+				<img src="assets/images/rose.jpg" alt="Rose">
+				<span id="rose">HP</span>
+			</div>
+		</div>
+	</section>
+	<section class="container enemy">
+		<h3>Girls standing between you and cheesecake</h3>
+		<div id="enemies">
+		</div>
+	</section>
+	<section class="container arena">
+		<h3>The Lanai</h3>
+		<div id="outside">
+		<div id="lanai">	
+		</div>
+		<div> 
+			<img id="vs" src="assets/images/vs.png">
+		</div>
+		<div id="lanaiTwo">
+		</div>
+		<p id="stat"></p>
+		</div>
+		<button type="button" class="btn btn-danger attack">Attack</button>
+		<button type = "button" class="btn btn-primary reset">Play Again</button>
+	</section>
+
+
+</body>
+</html>
