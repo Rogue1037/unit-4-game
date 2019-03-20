@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
 .headerImg{
     background-color: dimgray;
     width: 100%;
@@ -12,35 +18,49 @@
 }
 
 .characterSelection{
-    width: 45%;
-    height: 400px;
+    width: 50%;
+    height: 500px;
     border: solid 2px;
     border-color: floralwhite;
     float: left;
+    box-sizing: border-box;
 
 
 }
 
 .characterSel{
-    width: 45%;
+    width: 50%;
     height: 200px;
     border: solid 2px;
     border-color: floralwhite;
     float: left;
+    box-sizing: border-box
 
 }
 
 .enemySelection {
-    width: 45%;
+    width: 50%;
     height: 200px;
     border: solid 2px;
     border-color: floralwhite;
     float: left;
+    box-sizing: border-box;
+
 }
 
 .attackButton {
     float: left;
     background-color: darkslategray;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.charChoice {
+    float: left;
+    margin: auto 0;
+    padding: 10px;
+    color: floralwhite;
+    display: inline-flex;
+
 
 }

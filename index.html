@@ -19,42 +19,66 @@
 
 <body background="assets/images/red_stormtrooper_background.jpg">
 
-<header class="headerImg">
-    Star Wars RPG
-</header>
+    <header class="headerImg">
+        Star Wars RPG
+    </header>
 
 
-<div class="mainContainer">
+    <div class="mainContainer">
+
+        <div class="characterSelection">
+            <div id="chars">
+            Character Selection
+                
+                <div class="charChoice" id=trap data-gg-type="ackbar">
+                    <p>Ackbar</p>
+                    <img src="assets/images/ackbar.jpg" height="150px" width="150px" alt="Ackber">
+                    <span id="ackbar">HP</span>
+                </div>
+                <div class="charChoice" id=phat data-gg-type="phatTrooper">
+                    <p>phattrooper</p>
+                    <img src="assets/images/phattrooper.jpg" height="150px" width="150px" alt="phatTrooper">
+                    <span id="phatTrooper">HP</span>
+                </div>
+                <div class="charChoice" id=atat data-gg-type="jediATAT">
+                    <p>jediATAT</p>
+                    <img src="assets/images/jedi_ATAT.gif" height="150px" width="150px" alt="jediATAT">
+                    <span id="jediATAT">HP</span>
+                </div>
+                <div class="charChoice" id=chew data-gg-type="chewie">
+                    <p>Chewie</p>
+                    <img src="assets/images/cartoon_Chewie.jpeg" height="150px" width="150px" alt="Chewie">
+                    <span id="chewie">HP</span>
+                </div>
 
 
 
-    <div class="characterSelection">
-        <div>Character Selection</div>
-        <div id=selectedChar></div>
+            </div>
+
+        </div>
+
+        <div class="characterSel" id="charArena">
+            <div>Your Character</div>
+
+        </div>
+
+        <div class="enemySelection" id="enemyArena">
+            <div id="enemies">Enemies ready for battle!</div>
+
+        </div>
+
+        <div class="attackButton">
+            <button id="attack">Attack</button>
+            <button id="specialAttack">Special</button>
+
+        </div>
+
+
+
+
     </div>
 
-    <div class="characterSel">
-        <div>Your Character</div>
 
-    </div>
-
-    <div class="enemySelection">
-        <div>Enemies ready for battle!</div>
-
-    </div>
-
-    <div class="attackButton">
-        <button id="attack">Attack</button>
-        <button id="specialAttack">Special</button>
-
-    </div>
-
-
-    
-
-</div>
-
-    
 
 
 
